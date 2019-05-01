@@ -22,5 +22,5 @@ First we test that the menu is hidden by default and then we run the other test 
 #### Initial EntriesInitial Entries
 This test suite checks if there is at least one entry in the feed. As the loadFeed is an asynchronous function, we use Jasmine's done() to make sure that the tests run after loadFeed() has done it's work.
 
-####New Feed Selection
+#### New Feed Selection
 This test suite checks that when a new feed is loaded, the content actually changes.
